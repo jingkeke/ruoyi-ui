@@ -34,6 +34,7 @@ module.exports = {
     open: true,
     proxy: {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
+      //http://vue.ruoyi.vip
       [process.env.VUE_APP_BASE_API]: {
         target: `http://vue.ruoyi.vip`,
         changeOrigin: true,
